@@ -1,0 +1,74 @@
+nguyen@nguyen-Vostro-14-5459:~$ echo hello world
+hello world
+
+nguyen@nguyen-Vostro-14-5459:~$ passwd
+Changing password for nguyen.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password:
+
+nguyen@nguyen-Vostro-14-5459:~$ date
+Thứ năm, 16 Tháng 1 năm 2020 10:46:43 +07
+
+nguyen@nguyen-Vostro-14-5459:~$ hostname
+nguyen-Vostro-14-5459
+
+nguyen@nguyen-Vostro-14-5459:~$ arch
+x86_64
+
+nguyen@nguyen-Vostro-14-5459:~$ uname -a
+Linux nguyen-Vostro-14-5459 5.0.0-37-generic #40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+nguyen@nguyen-Vostro-14-5459:~$ dmesg
+...
+[  197.175778] usb 1-5: device descriptor read/64, error -71
+[  197.287794] usb usb1-port5: attempt power cycle
+[  197.943739] usb 1-5: new full-speed USB device number 18 using xhci_hcd
+[  197.943885] usb 1-5: Device not responding to setup address.
+[  198.151919] usb 1-5: Device not responding to setup address.
+[  198.359686] usb 1-5: device not accepting address 18, error -71
+[  198.487581] usb 1-5: new full-speed USB device number 19 using xhci_hcd
+[  198.487692] usb 1-5: Device not responding to setup address.
+[  198.695811] usb 1-5: Device not responding to setup address.
+[  198.903634] usb 1-5: device not accepting address 19, error -71
+[  198.903752] usb usb1-port5: unable to enumerate USB device
+
+nguyen@nguyen-Vostro-14-5459:~$ uptime
+ 10:48:08 up  1:34,  1 user,  load average: 1,19, 0,94, 0,75
+
+nguyen@nguyen-Vostro-14-5459:~$ who am i
+
+nguyen@nguyen-Vostro-14-5459:~$ whoami
+nguyen
+
+nguyen@nguyen-Vostro-14-5459:~$ who
+nguyen   :0           2020-01-16 16:14 (:0)
+
+nguyen@nguyen-Vostro-14-5459:~$ id
+uid=1000(nguyen) gid=1000(nguyen) groups=1000(nguyen),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+
+nguyen@nguyen-Vostro-14-5459:~$ last
+nguyen   :0           :0               Thu Jan 16 16:14   still logged in
+reboot   system boot  5.0.0-37-generic Thu Jan 16 16:13   still running
+nguyen   :0           :0               Thu Jan 16 05:51 - 05:52  (00:00)
+reboot   system boot  5.0.0-37-generic Thu Jan 16 05:51 - 05:52  (00:01)
+nguyen   :0           :0               Tue Jan  7 16:01 - 16:03  (00:02)
+reboot   system boot  5.0.0-37-generic Tue Jan  7 16:00 - 16:03  (00:02)
+
+wtmp begins Tue Jan  7 16:00:50 2020
+
+nguyen@nguyen-Vostro-14-5459:~$ finger
+Login     Name               Tty      Idle  Login Time   Office     Office Phone
+nguyen    Nguyen Lan Huong  *:0             Jan 16 16:14 (:0)
+
+nguyen@nguyen-Vostro-14-5459:~$ w
+ 10:49:41 up  1:36,  1 user,  load average: 0,90, 0,88, 0,74
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+nguyen   :0       :0               16:14   ?xdm?   2:54   0.03s /usr/lib/gdm3/
+
+
+
+
+
+
+
