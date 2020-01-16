@@ -1,0 +1,32 @@
+nguyen@nguyen-Vostro-14-5459:~/os2020$ ls| grep README
+README.md
+
+nguyen@nguyen-Vostro-14-5459:~/os2020$ wc -l /etc/passwd
+41 /etc/passwd
+
+3841nguyen@nguyen-Vostro-14-5459:~/os2020$ 
+nguyen@nguyen-Vostro-14-5459:~/os2020$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           3841        1732         910         251        1197        1601
+Swap:          1392           1        1391
+nguyen@nguyen-Vostro-14-5459:~/os2020$ free -m | grep Mem | awk '{print$2}'
+3841
+
+nguyen@nguyen-Vostro-14-5459:/proc$ cd /proc
+nguyen@nguyen-Vostro-14-5459:/proc$ cat cpuinfo | grep core
+core id		: 0
+cpu cores	: 2
+core id		: 1
+cpu cores	: 2
+core id		: 0
+cpu cores	: 2
+core id		: 1
+cpu cores	: 2
+
+nguyen@nguyen-Vostro-14-5459:~/Pictures$ find ~/Pictures/*.png | wc -l
+1
+
+
+
+
+
