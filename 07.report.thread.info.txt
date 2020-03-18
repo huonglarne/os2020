@@ -1,0 +1,12 @@
+nguyen@nguyen-Vostro-14-5459:~/os2020$ ps -A | grep firefox
+ 1649 tty1     00:14:12 firefox
+nguyen@nguyen-Vostro-14-5459:~/os2020$ ps -o nlwp 1649
+NLWP
+  73
+
+nguyen@nguyen-Vostro-14-5459:~/os2020$ cd /proc/1649/task
+nguyen@nguyen-Vostro-14-5459:/proc/1649/task$ ls | wc -l
+71
+
+
+
